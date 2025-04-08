@@ -80,12 +80,7 @@ floof = pygame.transform.scale(floof, (new_width, new_height))
 new_w2 = int(frame_0.get_width()* 0.17)
 new_h2 = int(frame_0.get_height()* 0.17)
 
-#game speed
-def main():
-    global game_speed
-    run = True
-    clock = pygame.time.Clock()
-    game_speed = 5
+
 
 #score system
 def score():
